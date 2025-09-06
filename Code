@@ -1,0 +1,14 @@
+// C++ code
+
+int led1 = 8;
+
+void setup() {
+  pinMode(led1, OUTPUT);  
+}
+
+void loop() {
+  digitalWrite(led1, HIGH); // light on 
+  delay(1000); // 1 sec              
+  digitalWrite(led1, LOW); // light off
+  delay(1000); // 1 sec
+}
